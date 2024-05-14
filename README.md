@@ -38,7 +38,7 @@ Mair, C., Rezgui, D. and Titurus, B., "Nonlinear Stability Analysis of Whirl Flu
 
 Link: https://link.springer.com/article/10.1007/s11071-018-4472-y. 
 
-This implementation is based off the above work with no modifications except including nonlinearities in both degrees of freedom.
+This implementation is based on the above work with no modifications except including nonlinearities in both degrees of freedom.
 
 ## Contact
 
