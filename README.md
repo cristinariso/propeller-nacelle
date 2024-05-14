@@ -1,14 +1,6 @@
-## README
+# README
 
-This code corresponds to the model used for the results in Gali et al., Journal of Fluids and Structures, 2023.
-
-Paper link: https://www.sciencedirect.com/science/article/pii/S0889974623001548. 
-
-The nonlinear extension of Reed's model was originally proposed by Mair et al., Nonlinear Dynamics, 2018.
-
-Paper link: https://link.springer.com/article/10.1007/s11071-018-4472-y
-
-This has been reimplemented for the above work with no modifications except including nonlinearities in both degrees of freedom (for isotropy).
+This repository contains the code for a propeller-nacelle test case with polynomial nonlinearities. The paper is an adaptation of the model reported by Reed in the 1966 review paper.
 
 ## Folder Structure
 
@@ -22,9 +14,9 @@ Files that begin with `load_parameters_XX` are input files.
 
 The main file is the file to be used for generating results.
 
-The time-marching function is under the time marching folder in utilities and calls functions in the model folder.
+The time-marching function is under the time marching folder in utilities and calls functions in the model folder (also in utilities).
 
-The model folder contains one function to build the state matrix of the linear model and then a dydt function that sums up the nonlinear terms.
+The model folder contains one function to build the state matrix of the linear model and a dydt function that sums up the nonlinear terms.
 
 ## Execution
 
@@ -34,7 +26,18 @@ To generate transient responses, run main.m by selecting the flag for the bifurc
 
 To plot the stability analysis and transient responses, first generate the results. Then run the scripts in `postproc`.
 
+## References
+
+The code was implemented and verified to generate the results in the paper below:
+
+Gali, S. V., Goehmann, T. G., and Riso, C., "Fundamental Investigation into Output-Based Prediction of Whirl Flutter Bifurcations," Journal of Fluids and Structures, 2023. DOI: 10.1016/j.jfluidstructs.2023.103986. 
+
+The nonlinear extension of Reed's model was originally proposed in the paper below:
+
+Mair, C., Rezgui, D. and Titurus, B., "Nonlinear Stability Analysis of Whirl Flutter in a Rotor-Nacelle System," Nonlinear Dynamics, 2018. DOI: 10.1007/s11071-018-4472-y. 
+
+This implementation is based off the above work with no modifications except including nonlinearities in both degrees of freedom.
+
 ## Contact
 
-Cristina Riso
-criso@gatech.edu
+Cristina Riso (criso@gatech.edu)
