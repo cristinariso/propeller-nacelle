@@ -28,11 +28,15 @@ To plot the stability analysis and transient responses, first generate the resul
 
 The code was implemented and verified to generate the results in the paper below:
 
-Gali, S. V., Goehmann, T. G., and Riso, C., "Fundamental Investigation into Output-Based Prediction of Whirl Flutter Bifurcations," Journal of Fluids and Structures, 2023. Link: https://www.sciencedirect.com/science/article/pii/S0889974623001548. 
+Gali, S. V., Goehmann, T. G., and Riso, C., "Fundamental Investigation into Output-Based Prediction of Whirl Flutter Bifurcations," Journal of Fluids and Structures, 2023. 
+
+Link: https://www.sciencedirect.com/science/article/pii/S0889974623001548. 
 
 The nonlinear extension of Reed's model was originally proposed in the paper below:
 
-Mair, C., Rezgui, D. and Titurus, B., "Nonlinear Stability Analysis of Whirl Flutter in a Rotor-Nacelle System," Nonlinear Dynamics, 2018. Link: https://link.springer.com/article/10.1007/s11071-018-4472-y. 
+Mair, C., Rezgui, D. and Titurus, B., "Nonlinear Stability Analysis of Whirl Flutter in a Rotor-Nacelle System," Nonlinear Dynamics, 2018. 
+
+Link: https://link.springer.com/article/10.1007/s11071-018-4472-y. 
 
 This implementation is based off the above work with no modifications except including nonlinearities in both degrees of freedom.
 
