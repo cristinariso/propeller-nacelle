@@ -1,6 +1,6 @@
 # README
 
-This repository contains the code for a propeller-nacelle test case with polynomial nonlinearities. The paper is an adaptation of the model reported by Reed in the 1966 review paper.
+This repository contains the code for an analytical propeller-nacelle whirl flutter test case with polynomial nonlinearities. The model is an adaptation of the model reported by Reed in the 1966 review paper.
 
 ## Folder Structure
 
