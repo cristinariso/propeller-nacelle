@@ -14,9 +14,7 @@ Files that begin with `load_parameters_XX` are input files.
 
 The main file is the file to be used for generating results.
 
-The time-marching function is under the time marching folder in utilities and calls functions in the model folder (also in utilities).
-
-The model folder contains one function to build the state matrix of the linear model and a dydt function that sums up the nonlinear terms.
+The time-marching function is under the time marching folder in utilities and calls functions in the model folder (also in utilities). The model folder contains one function to build the state matrix of the linear model and a dydt function that sums up the nonlinear terms.
 
 ## Execution
 
