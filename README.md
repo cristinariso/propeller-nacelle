@@ -14,7 +14,7 @@ Input files begin with `load_parameters_XX`.
 
 The main file main.m is the analysis driver.
 
-The time-marching function is in the `time_marching` folder in `utilities` and calls functions in the `model` folder. This folder contains one function to build the state matrix of the linear model and a dydt function that adds nonlinear terms.
+The time-marching function is in the `time_marching` folder in `utilities` and calls functions in the `model` folder. This folder contains one function to build the linear state matrix and a dydt function that adds nonlinear terms.
 
 ## Execution
 
